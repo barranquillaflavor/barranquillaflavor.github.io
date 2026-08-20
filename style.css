@@ -1,0 +1,55 @@
+/* Add styling here */
+body { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-color: #d99ca7;
+  font-family: Leelawadee;
+}
+
+
+/* text styling here */
+
+.pageTitles {
+  text-align: center;
+  color: black;
+  -webkit-text-stroke-color:white;
+  -webkit-text-stroke-width: 1px;
+  font-size: 30px;
+  font-family: Leelawadee;
+}
+
+/* nav bar*/
+
+nav ul {
+  list-style-type: none;
+  background-color: #82244d;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+ 
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+  font-family: Leelawadee;
+
+  
+}
+
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+nav a:hover {
+  color: #face06;
+
+}
